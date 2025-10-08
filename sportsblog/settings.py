@@ -93,8 +93,13 @@ DATABASES = {
         "PORT": "3306"
     }
 }
-database_url=os.environ.get("DATABASE_URL")
-DATABASES["default"]=dj_database_url.parse(database_url)
+database_url = os.environ.get("DATABASE_URL")
+if database_url:
+    DATABASES["default"] = dj_database_url.parse(
+        database_url,
+        conn_max_age=600,   # keep DB connections open for performance
+        ssl_require=True    # enforce SSL; set False only if you know it's ok
+    )
 
 
 
