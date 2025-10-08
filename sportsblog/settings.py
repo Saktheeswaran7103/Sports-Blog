@@ -144,9 +144,9 @@ STATICFILES_DIRS = [
 #MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 #MEDIA_ROOT = [BASE_DIR / 'media']
 CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': os.environ.get('CLOUDINARY_CLOUD_NAME'),
-    'API_KEY': os.environ.get('CLOUDINARY_API_KEY'),
-    'API_SECRET': os.environ.get('CLOUDINARY_API_SECRET'),
+    'CLOUD_NAME': os.environ.get('dcqyw7ldt'),
+    'API_KEY': os.environ.get('691416323896245'),
+    'API_SECRET': os.environ.get('jDwovbMVYazviAaQWVoIUmbMiQE'),
 }
 #print("CLOUDINARY_URL:", os.getenv("CLOUDINARY_URL"))
 
