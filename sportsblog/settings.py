@@ -84,21 +84,21 @@ WSGI_APPLICATION = "sportsblog.wsgi.application"
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 database_url = os.environ.get("DATABASE_URL")
 
-if database_url:
-    DATABASES = {
+
+DATABASES = {
         "default": dj_database_url.parse(database_url, conn_max_age=600)
     }
-else:
-    DATABASES = {
-        "default": {
-            "ENGINE": "django.db.backends.mysql",
-            "NAME": "sportsblog_db",
-            "USER": "root",
-            "PASSWORD": "Mysql_007",
-            "HOST": "localhost",
-            "PORT": "3306",
-        }
-    }
+#else:
+    #DATABASES = {
+        #"default": {
+            #"ENGINE": "django.db.backends.mysql",
+            #"NAME": "sportsblog_db",
+            #"USER": "root",
+            #"PASSWORD": "Mysql_007",
+            #"HOST": "localhost",
+            #"PORT": "3306",
+        #}
+    #}
 
 
 # Password validation
