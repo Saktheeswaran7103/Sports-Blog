@@ -15,7 +15,7 @@ body {
   font-size: 1.4rem;
 }
 body {
-    background-image: url("../images/background.jpg"); /* path example */
+    background-image: url("../images/background2.jpg"); /* path example */
     background-size: cover;       /* makes image cover entire page */
     background-repeat: no-repeat; /* prevents tiling */
     background-attachment: fixed; /* keeps background fixed on scroll */
