@@ -22,3 +22,18 @@ body {
     background-position: center;  /* centers the image */
     background-color: #f8f9fa;    /* fallback color */
 }
+.latest-heading {
+    color: #9FE2BF;
+    font-weight: 800;
+    font-size: 2rem;
+    text-shadow:
+        0 0 5px rgba(159, 226, 191, 0.8),
+        0 0 10px rgba(159, 226, 191, 0.6),
+        2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+
+.latest-heading:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
