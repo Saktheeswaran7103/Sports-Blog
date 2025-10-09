@@ -14,3 +14,11 @@ body {
   font-weight: bold;
   font-size: 1.4rem;
 }
+body {
+    background-image: url("../images/background.jpg"); /* path example */
+    background-size: cover;       /* makes image cover entire page */
+    background-repeat: no-repeat; /* prevents tiling */
+    background-attachment: fixed; /* keeps background fixed on scroll */
+    background-position: center;  /* centers the image */
+    background-color: #f8f9fa;    /* fallback color */
+}
