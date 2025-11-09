@@ -1,5 +1,4 @@
 
-🔗 Live Site:https://sports-blog-render.onrender.com
 
 🏅 Sports Blog Project
 
